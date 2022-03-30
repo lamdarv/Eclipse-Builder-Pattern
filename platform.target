@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><?pde version="3.8"?><target name="BuilderPattern" sequenceNumber="22">
+<locations>
+	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+	
+		<repository location="http://download.eclipse.org/releases/2018-12"/>
+		
+		<unit id="org.eclipse.fx.ide.basic.feature.feature.group" version="0.0.0"/>
+		<unit id="org.eclipse.equinox.sdk.feature.group" version="0.0.0"/>
+		<unit id="org.eclipse.platform.sdk" version="0.0.0"/>
+		
+		<unit id="org.hamcrest.core" version="0.0.0"/>
+		<unit id="org.junit" version="0.0.0"/>
+		<unit id="org.eclipse.jdt.junit.runtime" version="0.0.0"/>
+		<unit id="org.eclipse.jdt.junit4.runtime" version="0.0.0"/>
+	</location>
+</locations>
+<environment>
+	<os>win32</os>
+	<ws>win32</ws>
+	<arch>x86_64</arch>
+</environment>
+</target>
